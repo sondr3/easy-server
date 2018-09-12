@@ -6,3 +6,4 @@ authors = ["Sondre Nilsen <nilsen.sondre@gmail.com>"]
 [dependencies]
 rouille = "2.2"
 colored = "1.6"
+notify = "4.0.0"
