@@ -1,10 +1,10 @@
 extern crate colored;
-extern crate rouille;
 extern crate notify;
+extern crate rouille;
 
 use colored::*;
+use notify::{watcher, RecursiveMode, Watcher};
 use rouille::Response;
-use notify::{Watcher, RecursiveMode, watcher};
 use std::sync::mpsc::channel;
 use std::time::Duration;
 
